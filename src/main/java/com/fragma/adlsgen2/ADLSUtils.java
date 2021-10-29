@@ -1,4 +1,4 @@
-package com.borden.adlsgen2;
+package com.fragma.adlsgen2;
 
 import com.azure.storage.common.StorageSharedKeyCredential;
 import com.azure.storage.file.datalake.DataLakeDirectoryClient;

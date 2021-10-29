@@ -60,7 +60,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <fork>true</fork>
-                    <mainClass>com.borden.adlsgen2.Example</mainClass>
+                    <mainClass>com.fragma.adlsgen2.Example</mainClass>
                 </configuration>
                 <executions>
                     <execution>

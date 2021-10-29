@@ -1,33 +1,27 @@
-package com.borden.adlsgen2;
+package com.fragma.adlsgen2;
 
 import com.azure.storage.file.datalake.DataLakeDirectoryClient;
 import com.azure.storage.file.datalake.DataLakeFileClient;
 import com.azure.storage.file.datalake.DataLakeFileSystemClient;
 import com.azure.storage.file.datalake.DataLakeServiceClient;
 import com.azure.storage.file.datalake.models.FileSystemItem;
-import com.borden.adlsgen2.config.ADLSUtilsAppProperties;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import com.fragma.adlsgen2.config.ADLSUtilsAppProperties;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
 
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Date;
 import java.util.Optional;
 
-import static com.borden.adlsgen2.ADLSUtils.GetDataLakeServiceClient;
-import static com.borden.adlsgen2.ADLSUtils.createDirectories;
+import static com.fragma.adlsgen2.ADLSUtils.GetDataLakeServiceClient;
+import static com.fragma.adlsgen2.ADLSUtils.createDirectories;
 
 @Slf4j
 @ComponentScan(basePackages = {"com.borden"})

@@ -1,4 +1,4 @@
-package com.borden.adlsgen2.config;
+package com.fragma.adlsgen2.config;
 
 import lombok.Getter;
 import lombok.Setter;
