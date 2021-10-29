@@ -24,7 +24,7 @@ import static com.fragma.adlsgen2.ADLSUtils.GetDataLakeServiceClient;
 import static com.fragma.adlsgen2.ADLSUtils.createDirectories;
 
 @Slf4j
-@ComponentScan(basePackages = {"com.borden"})
+@ComponentScan(basePackages = {"com.fragma"})
 @EnableAutoConfiguration
 @EnableConfigurationProperties
 public class Example implements CommandLineRunner {
